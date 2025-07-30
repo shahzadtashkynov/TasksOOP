@@ -9,6 +9,10 @@ public class Main {
         Integer [] ratings = {3, 4, 5 };
 
         ArraysStudent student = new ArraysStudent("Wasya", ratings );
-        System.out.println(student);
+        System.out.println(student.getRatings());
+
+        ArraysStudent student1 = new ArraysStudent("Petya", ratings );
+        System.out.println(student1);
+
     }
 }

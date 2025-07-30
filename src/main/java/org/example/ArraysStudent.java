@@ -14,6 +14,10 @@ public class ArraysStudent {
         return this.name;
     }
 
+    public String getRatings(){
+        return Arrays.toString(this.ratings);
+    }
+
     @Override
     public String toString() {
         return "ArraysStudent {" +
