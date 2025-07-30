@@ -15,9 +15,15 @@ public class Main {
         //System.out.println(petya);
 
         petya.ratings [0] = 5;
-        System.out.println(wasya);
-        System.out.println(petya);
+//        System.out.println(wasya);
+//        System.out.println(petya);
 
+        ArraysStudent andrey = new ArraysStudent("Andrey", wasya.ratings );
+        System.out.println( andrey );
+        System.out.println( wasya );
 
+        wasya.ratings [1] = 3;
+        System.out.println( " After changing : "+ wasya );
+        System.out.println( "After changing : " + andrey );
     }
 }
