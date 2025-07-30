@@ -8,11 +8,16 @@ public class Main {
         // initializing array of ratings
         Integer [] ratings = {3, 4, 5 };
 
-        ArraysStudent student = new ArraysStudent("Wasya", ratings );
-        System.out.println(student.getRatings());
+        ArraysStudent wasya = new ArraysStudent("Wasya", ratings );
+        //System.out.println(wasya.getRatings());
 
-        ArraysStudent student1 = new ArraysStudent("Petya", ratings );
-        System.out.println(student1);
+        ArraysStudent petya = new ArraysStudent("Petya", ratings );
+        //System.out.println(petya);
+
+        petya.ratings [0] = 5;
+        System.out.println(wasya);
+        System.out.println(petya);
+
 
     }
 }

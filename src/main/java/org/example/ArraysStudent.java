@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysStudent {
     private String name;
-    private Integer [] ratings = { };
+    public Integer [] ratings = { };
 
     public ArraysStudent(String name, Integer [] ratings){
         this.name = name;
