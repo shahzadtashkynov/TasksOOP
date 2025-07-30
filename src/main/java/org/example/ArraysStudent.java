@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysStudent {
     private String name;
-    private Integer [] ratings = { }; // in english ?
+    private Integer [] ratings = { };
 
     public ArraysStudent(String name, Integer [] ratings){
         this.name = name;
@@ -13,11 +13,12 @@ public class ArraysStudent {
     public String getName(){
         return this.name;
     }
+
     @Override
     public String toString() {
-        return "ArraysStudent{" +
-                "name='" + name + '\'' +
-                ", ratings=" + Arrays.toString(ratings) +
+        return "ArraysStudent {" +
+                "name = '" + name + '\'' +
+                ", ratings = " + Arrays.toString(ratings) +
                 '}';
     }
 }

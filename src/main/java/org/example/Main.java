@@ -5,6 +5,10 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello tasks");
+        // initializing array of ratings
+        Integer [] ratings = {3, 4, 5 };
+
+        ArraysStudent student = new ArraysStudent("Wasya", ratings );
+        System.out.println(student);
     }
 }
